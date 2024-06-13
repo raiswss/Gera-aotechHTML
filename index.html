@@ -7,6 +7,7 @@
     <style>
         table, th,td,tr{
             border: 1px solid black;
+            form 
         }
     </style>
 </head>
@@ -94,6 +95,48 @@ It's a day that I can't stand <br>
     </tr>
    
 </table>
+
+<h2>Apresentação formulários</h2>
+<form> 
+    <label for="MeuId">Rótulo da informação a ser inserida</label> <br>
+    <input type="text" id="MeuID">
+<br>
+    <label for="número">Rótulo para números</label> <br>
+    <input type="number" id="número" value="1000"> <br>
+
+    <label for="email">Rótulo para email</label> <br>
+    <input type="email" name="" id="email" placeholder="exemplo@gmail.com"> <br>
+
+    <label for="senha">Rótulo para senha</label> <br>
+<input type="password" name="" id="senha"> <br> <br>
+
+<label for="">Exemplo caixas de seleção</label> <br>
+
+<input type="checkbox" name="selecão" id="f" value="LojaFeminino">
+<label for="f">LojaFeminino</label> <br>
+
+<input type="checkbox" name="selecão" id="m" value="LojaMasculino">
+<label for="checkbox">LojaMasculino</label> <br><br>
+
+<label for="">Exemplo de selecao unica</label> <br>
+
+<input type="radio" name="selecaoUnica" id="um" value="1">
+<label for="um">Primeira opção</label> <br>
+
+<input type="radio" name="selecaoUnica" id="dois" value="2">
+<label for="dois">Segunda Opção</label> <br>
+<br>
+<label for="testeSelect">seleção por lista</label> <br>
+<select name="testeSelect" id="testeSelect">
+    <option value="1" disabled>um</option>
+    <option value="2">dois</option>
+    <option value="3">três</option>
+</select> <br> <br>
+<textarea name="" id=" " cols="30" rows="10">
+</textarea>
+
+
+</form>
 
 </body>
 </html>
