@@ -12,131 +12,175 @@
     </style>
 </head>
 <body>
-<h1>EXEMPLOS DE UTILIZAÇÃO DAS TAGS</h1>
-<h2>apresentação das listas</h2>
-<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo eos rem cum amet, laudantium animi.</p>
-<h3>Listas Ordenadas</h3>
-<ol type="A"><li> coisa</li>
-    <li>segunda coisa</li>
-    <li>coisa</li>
-    <li>coisa</li>
 
-</ol>
+<header>
+<img src="https://geracaotech.iel-ce.org.br/images/logo-geracao-tech.png" alt="logo programa">
 
-<h3>Listas não ordenadas</h3>
-<ul type><li>coisa</li>
-    <li>coisa</li>
-    <li>coisa</li>
+<h1>Geração tech - Desenvolvimento Front-End</h1>
+<nav>
 
-</ul>
-<h3>Continuação das listas ordenadas</h3>
 
-<ol type="A" start="4">
-    <li> outra coisa</li>
-    <li>outra coisa</li>
-    <li>outra coisa</li>
-</ol>
+<a href="#Listas">Tags de Listas</a>
+<a href="#Listas">Tags de Tabelas</a>
+<a href="#Formulários">Tags de Formulários</a>
+<a href="#divisões">Tags de Divisões</a>
 
-<h3>Listas de definição</h3>
+</nav>
+</header>
 
-<dl>
-    <ol><li>
-    <dt>Café</dt>
-    <dd>bebida, normalmente quente, fortemente rica em cafeína, adoçada ou não</dd>
-</li>
-<li>
-    <dt>Água</dt>
-    <dd>liquido primordial a vida. Sem água não há café</dd>
-</li>
-</ol>
-</dl>
+<main>
+    <h1>EXEMPLOS DE UTILIZAÇÃO DAS TAGS</h1>
 
-<h3>Quebra de linha</h3>
-Such a lonely day, and it's mine <br>
-The most loneliest day of my life <br>
-Such a lonely day should be banned <br>
-It's a day that I can't stand <br>
+<section id="Listas">
+    <h2>apresentação das listas</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo eos rem cum amet, laudantium animi.</p>
+    <h3>Listas Ordenadas</h3>
+    <ol type="A"><li> coisa</li>
+        <li>segunda coisa</li>
+        <li>coisa</li>
+        <li>coisa</li>
+    
+    </ol>
+    
+    <h3>Listas não ordenadas</h3>
+    <ul type><li>coisa</li>
+        <li>coisa</li>
+        <li>coisa</li>
+    
+    </ul>
+    <h3>Continuação das listas ordenadas</h3>
+    
+    <ol type="A" start="4">
+        <li> outra coisa</li>
+        <li>outra coisa</li>
+        <li>outra coisa</li>
+    </ol>
+    
+    <h3>Listas de definição</h3>
+    
+    <dl>
+        <ol><li>
+        <dt>Café</dt>
+        <dd>bebida, normalmente quente, fortemente rica em cafeína, adoçada ou não</dd>
+    </li>
+    <li>
+        <dt>Água</dt>
+        <dd>liquido primordial a vida. Sem água não há café</dd>
+    </li>
+    </ol>
+    </dl>
 
-<h2>Apresentação tabelas</h2>
-
-<table>
-    <!-- titulo das colunas -->
+    
    
-        <th>coluna 1</th>
-        <th>coluna 2</th>
-        <th>coluna 3</th>
-   
-    <!-- informações da tabela -->
-    <tr>
-         <td>info Linha1-col1</td>
-         <td>info Linha1-col2</td>
-         <td>info Linha1-col3</td>
-</tr>
+</section>
 
-<tr>
-    <td>info Linha2-col1</td>
-    <td>info Linha2-col2</td>
-    <td>info Linha2-col3</td>
-</tr>
+<section id="Quebra de linha">
 
-<tr>
-    <td colspan="2">info Linha3-col 1/2</td>
-    <td>info Linha3-col3</td>
+    <h3>Quebra de linha</h3>
+    Such a lonely day, and it's mine <br>
+    The most loneliest day of my life <br>
+    Such a lonely day should be banned <br>
+    It's a day that I can't stand <br>
+</section>
+
+   <section id="Tabelas">
+    <h2>Apresentação tabelas</h2>
+    
+    <table>
+        <!-- titulo das colunas -->
+       
+            <th>coluna 1</th>
+            <th>coluna 2</th>
+            <th>coluna 3</th>
+       
+        <!-- informações da tabela -->
+        <tr>
+             <td>info Linha1-col1</td>
+             <td>info Linha1-col2</td>
+             <td>info Linha1-col3</td>
     </tr>
-
+    
     <tr>
-        <td rowspan="2">infolinha4-5 col 1</td>
-        <td>infolinha4 col 2</td>
-        <td>info linha4 col 3</td>
+        <td>info Linha2-col1</td>
+        <td>info Linha2-col2</td>
+        <td>info Linha2-col3</td>
     </tr>
+    
     <tr>
-        <td>info linha 5 col 2</td>
-        <td>info linha 5 col 3</td>
-    </tr>
-   
-</table>
+        <td colspan="2">info Linha3-col 1/2</td>
+        <td>info Linha3-col3</td>
+        </tr>
+    
+        <tr>
+            <td rowspan="2">infolinha4-5 col 1</td>
+            <td>infolinha4 col 2</td>
+            <td>info linha4 col 3</td>
+        </tr>
+        <tr>
+            <td>info linha 5 col 2</td>
+            <td>info linha 5 col 3</td>
+        </tr>
+       
+    </table>
+    
+   </section>
+    
+    <section id="Formulários">
+        <h2>Apresentação formulários</h2>
+        <form> 
+            <label for="MeuId">Rótulo da informação a ser inserida</label> <br>
+            <input type="text" id="MeuID">
+        <br>
+            <label for="número">Rótulo para números</label> <br>
+            <input type="number" id="número" value="1000"> <br>
+        
+            <label for="email">Rótulo para email</label> <br>
+            <input type="email" name="" id="email" placeholder="exemplo@gmail.com"> <br>
+        
+            <label for="senha">Rótulo para senha</label> <br>
+        <input type="password" name="" id="senha"> <br> <br>
+        
+        <label for="">Exemplo caixas de seleção</label> <br>
+        
+        <input type="checkbox" name="selecão" id="f" value="LojaFeminino">
+        <label for="f">LojaFeminino</label> <br>
+        
+        <input type="checkbox" name="selecão" id="m" value="LojaMasculino">
+        <label for="checkbox">LojaMasculino</label> <br><br>
+        
+        <label for="">Exemplo de selecao unica</label> <br>
+        
+        <input type="radio" name="selecaoUnica" id="um" value="1">
+        <label for="um">Primeira opção</label> <br>
+        
+        <input type="radio" name="selecaoUnica" id="dois" value="2">
+        <label for="dois">Segunda Opção</label> <br>
+        <br>
+        <label for="testeSelect">seleção por lista</label> <br>
+        <select name="testeSelect" id="testeSelect">
+            <option value="1" disabled>um</option>
+            <option value="2">dois</option>
+            <option value="3">três</option>
+        </select> <br> <br>
+        <textarea name="" id=" " cols="30" rows="10">
+        </textarea>
+        
+        
+        </form>
 
-<h2>Apresentação formulários</h2>
-<form> 
-    <label for="MeuId">Rótulo da informação a ser inserida</label> <br>
-    <input type="text" id="MeuID">
-<br>
-    <label for="número">Rótulo para números</label> <br>
-    <input type="number" id="número" value="1000"> <br>
 
-    <label for="email">Rótulo para email</label> <br>
-    <input type="email" name="" id="email" placeholder="exemplo@gmail.com"> <br>
+    </section>
 
-    <label for="senha">Rótulo para senha</label> <br>
-<input type="password" name="" id="senha"> <br> <br>
+    
 
-<label for="">Exemplo caixas de seleção</label> <br>
+</main>
 
-<input type="checkbox" name="selecão" id="f" value="LojaFeminino">
-<label for="f">LojaFeminino</label> <br>
-
-<input type="checkbox" name="selecão" id="m" value="LojaMasculino">
-<label for="checkbox">LojaMasculino</label> <br><br>
-
-<label for="">Exemplo de selecao unica</label> <br>
-
-<input type="radio" name="selecaoUnica" id="um" value="1">
-<label for="um">Primeira opção</label> <br>
-
-<input type="radio" name="selecaoUnica" id="dois" value="2">
-<label for="dois">Segunda Opção</label> <br>
-<br>
-<label for="testeSelect">seleção por lista</label> <br>
-<select name="testeSelect" id="testeSelect">
-    <option value="1" disabled>um</option>
-    <option value="2">dois</option>
-    <option value="3">três</option>
-</select> <br> <br>
-<textarea name="" id=" " cols="30" rows="10">
-</textarea>
+<footer>
 
 
-</form>
+</footer>
+
+
 
 </body>
 </html>
