@@ -1,0 +1,54 @@
+.container{
+border: 5px solid purple;
+padding: 15px;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+height: 400px;
+align-items: center;
+align-content: stretch;
+flex-wrap: wrap-reverse;
+}
+
+
+.vermelho{
+background-color: red;
+width: 150px;
+
+
+}
+
+
+.verde{
+
+    background-color:green;
+    width: 200px;
+   
+}
+
+
+
+.azul{
+    background-color: blue;
+    width: 150px;
+   
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
